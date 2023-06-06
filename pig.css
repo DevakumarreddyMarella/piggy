@@ -1,0 +1,114 @@
+.face
+{
+    height: 400px;
+    width: 400px;
+    background-color: rgb(238, 103, 193);
+    border-radius: 50%;
+    margin: auto;
+    margin-top: -18%;
+    border-style:solid;
+    position: relative;
+
+}
+.eyes
+{
+    display: flex;
+    justify-content: space-evenly;
+    width: 450px;
+    margin: auto;
+    margin-top: 20%;
+    
+    position: absolute;
+}
+.leye
+{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: white;
+    margin-left: -10%;
+
+}
+.reye
+{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: white;
+    margin-left: -10%;
+
+}
+.ileye
+{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top:010px;
+}
+.ireye
+{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top:10px;
+}
+.mouth
+{
+    height: 120px;
+    width: 170px;
+    background-color: red;
+    margin: auto;
+    margin-top: 185px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius:40% ;
+    border-bottom-right-radius:40% ;
+    display: flex;
+    justify-content: space-evenly;
+    /* border-radius:60% ; */
+}
+.lnose
+{
+    height: 40px;
+    width: 40px;
+    border-radius: 50% ;
+    background-color: black;
+    margin-top: 40px;
+}
+.rnose
+{
+    height: 40px;
+    width: 40px;
+    border-radius: 50% ;
+    background-color: black;
+    margin-top: 40px;
+}
+.ear{
+    display: flex;
+    width: 400px;
+    justify-content: space-evenly;
+    margin: auto;
+    margin-top: 10%;
+    position: relative;
+    
+}
+.lear{
+    height: 300px;
+    width: 150px;
+    background-color: hotpink;
+    border: 2px solid black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 120px;
+}
+.rear{
+    height: 300px;
+    width: 150px;
+    background-color: hotpink;
+    border: 2px solid black;
+    border-top-left-radius: 120px;
+    border-top-right-radius: 10px;
+}
